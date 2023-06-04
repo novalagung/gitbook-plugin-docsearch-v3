@@ -2,8 +2,18 @@ DocSearch v3 plugin for HonKit / GitBook legacy
 
 ## Installation
 
+### Using HonKit
+
+```bash
+npm install gitbook-plugin-docsearch-v3 --save-dev
 ```
-npm install gitbook-plugin-docsearch-v3
+
+### Using GitBook Legacy
+
+Follow the steps under **Usage** section, then run the following command:
+
+```bash
+gitbook install
 ```
 
 ## Usage
