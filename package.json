@@ -1,0 +1,29 @@
+{
+  "name": "gitbook-plugin-docsearch-v3",
+  "version": "1.0.0",
+  "description": "DocSearch v3 plugin for HonKit / GitBook legacy",
+  "main": "index.js",
+  "dependencies": {
+    "cheerio": "^0.22.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/novalagung/gitbook-plugin-docsearch-v3.git"
+  },
+  "keywords": [
+    "gitbook",
+    "honkit",
+    "docsearch",
+    "algolia",
+    "search"
+  ],
+  "author": "Noval Agung Prayogo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/novalagung/gitbook-plugin-docsearch-v3/issues"
+  },
+  "homepage": "https://github.com/novalagung/gitbook-plugin-docsearch-v3#readme"
+}
