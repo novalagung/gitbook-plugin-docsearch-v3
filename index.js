@@ -33,19 +33,6 @@ module.exports = {
         },
 
         "finish": function () {
-            const cfg = this.options.pluginsConfig.docSearch;
-
-            if (!cfg.appId) {
-                throw new Error('missing DocSearch appId');
-            }
-            if (!cfg.apiKey) {
-                throw new Error('missing DocSearch apiKey');
-            }
-            if (!cfg.indexName) {
-                throw new Error('missing DocSearch indexName');
-            }
-
-            console.log('urls', urls, urls);
             urls.forEach(item => {
                 const html = fs.readFileSync(item.url, { encoding: 'utf-8' });
                 const $ = cheerio.load(html);
