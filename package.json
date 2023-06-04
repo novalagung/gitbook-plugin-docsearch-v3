@@ -1,6 +1,6 @@
 {
   "name": "gitbook-plugin-docsearch-v3",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "DocSearch v3 plugin for HonKit / GitBook legacy",
   "main": "index.js",
   "dependencies": {
