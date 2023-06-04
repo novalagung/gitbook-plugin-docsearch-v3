@@ -6,6 +6,9 @@
   "dependencies": {
     "cheerio": "^0.22.0"
   },
+  "engines": {
+    "gitbook": "*"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
