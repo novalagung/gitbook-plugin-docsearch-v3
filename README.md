@@ -20,7 +20,7 @@ gitbook install
 
 Apply on https://docsearch.algolia.com/, to get free Algolia DocSearch credentials. Then On `book.json`, do the following steps:
 
-- Disable the `search` and `lunr` plugins.
+- Disable the `search` and `lunr` plugins (by adding `-` prefix on the plugin name).
 - Add the `docsearch-v3` plugin.
 - specify your DocSearch credentials under `pluginsConfig.docsearch`.
 
