@@ -1,4 +1,4 @@
-DocSearch v3 plugin for HonKit / GitBook legacy
+Algolia DocSearch v3 plugin for HonKit / GitBook legacy
 
 ## Installation
 
@@ -10,7 +10,7 @@ npm install gitbook-plugin-docsearch-v3 --save-dev
 
 ### Using GitBook Legacy
 
-Follow the steps under **Usage** section, then run the following command:
+Follow the steps under **Usage** section first, then run the following command:
 
 ```bash
 gitbook install
@@ -18,11 +18,11 @@ gitbook install
 
 ## Usage
 
-Apply on https://docsearch.algolia.com/, to get free Algolia DocSearch credentials. Then On `book.json`, do the following steps:
+Apply on https://docsearch.algolia.com/ to get free Algolia DocSearch credentials. Next, on `book.json` do the following steps:
 
 - Disable the `search` and `lunr` plugins (by adding `-` prefix on the plugin name).
 - Add the `docsearch-v3` plugin.
-- specify your DocSearch credentials under `pluginsConfig.docsearch`.
+- Specify your DocSearch credentials under `pluginsConfig.docsearch`.
 
 ```js
 {
